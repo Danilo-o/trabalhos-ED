@@ -1,5 +1,5 @@
 # trabalhos-ED
-atividades avaliativas 1, 2, 3, 6, 7, 8, 9. Estrutura de Dados 3º Semestre
+Atividades avaliativas 1, 2, 3, 6, 7, 8, 9. Estrutura de Dados 3º Semestre
 
 # Exercicios AV1 :
 
