@@ -19,6 +19,7 @@ Aluno *maiorNota(Aluno *alunos, int n) {
 
 int main() {
     int n;
+    printf("Quantos alunos? ");
     scanf("%d", &n);
 
     Aluno *alunos = (Aluno *)malloc(n * sizeof(Aluno));
@@ -28,7 +29,9 @@ int main() {
     }
 
     for (int i = 0; i < n; i++) {
+        printf("Nome do aluno %d: ", i + 1);
         scanf("%s", (alunos + i)->nome);
+        printf("Nota do aluno %d: ", i + 1);
         scanf("%f", &(alunos + i)->nota);
     }
 
