@@ -13,7 +13,7 @@ int main() {
     int encontrado = 0;
 
     for (int i = 0; i < 5; i++) {
-        printf("\n--- Livro %d ---\n", i + 1);
+        printf("\n Livro %d\n", i + 1);
         printf("Título (máx 30 chars): ");
         scanf(" %[^\n]", livros[i].titulo);
         printf("Autor (máx 15 chars): ");
